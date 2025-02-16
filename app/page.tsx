@@ -13,7 +13,7 @@ export default function Home() {
     setStatus('loading');
     
     try {
-      const response = await fetch('http://localhost:8000/api/subscribe/', {
+      const response = await fetch('https://web-production-6915.up.railway.app/api/subscribe/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
